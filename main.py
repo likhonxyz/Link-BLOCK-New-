@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 import re
 import logging
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters
